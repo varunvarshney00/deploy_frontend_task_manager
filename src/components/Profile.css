@@ -1,0 +1,27 @@
+.profile-card {
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1), 0 24px 48px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 50px;
+  }
+  
+  .profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(254, 254, 254, 0.397), 0 12px 24px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .profile-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+  }
+  
+  .profile-card p {
+    margin: 0;
+  }
+  
